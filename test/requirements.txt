@@ -1,6 +1,26 @@
-flake8
-pep8-naming
+# Purpose:
+#
+#   This requirements are Python packages that need to be installed to
+#   successfully run tests, debug them or collect metrics from the run.
+
+#######################
+# Debugging           #
+#######################
+
+ipdb
+pprintpp
+
+#######################
+# Testing             #
+#######################
+
 pytest
 pytest-cov
 deepdiff
-ipdb
+
+#######################
+# Style               #
+#######################
+
+flake8
+pep8-naming
